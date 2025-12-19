@@ -1,0 +1,174 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "BHH Bogle", sans-serif;
+
+    
+}
+
+body {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    gap: 1rem;
+
+}
+
+
+.title {
+    color: black;
+    margin: 10px 30px 30px 10px;
+    text-align: center;
+    justify-content: center;
+    align-self:center;
+    font-size: 64px;
+}
+
+.subText {
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
+
+.insight {
+    text-align: center;
+}
+
+.button {
+    text-decoration:none;
+    display: inline-flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: #1216ff;
+    border-radius: 100%;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    font-weight: bold;
+    gap: 0.75rem;
+    transition: all .3s ;
+
+}
+.button i {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 10px
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(18, 22, 255, 0.4);
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+
+    gap: 2rem;
+    flex: 1;
+    padding: 2rem;
+    flex-wrap:wrap;
+    flex-shrink: 1;
+
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+    gap: 2rem;
+    flex: 1;
+    padding: 2rem;
+    flex-wrap:wrap;
+    flex-shrink: 1;
+}
+
+.flexBox {
+    width: 300px;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    align-items: center;
+    color:aqua;
+    gap: 1rem;
+    border: 10px solid white ;
+    display:block;
+
+}
+
+.spacing {
+    border: 10px solid white;
+    width: 300px;
+    border-radius: 20px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+
+}
+
+.flexWrap {
+    width: 300px;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    border: 10px solid white;
+
+
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 10 10 10 black;
+
+
+}
+
+.footerNote {
+    color: white;
+    gap: 10px;
+    margin: 1rem
+
+}
+
+.fa-robot {
+    font-size: xx-large;
+    color: rgb(62, 255, 101);
+    transition: .3 ease;
+
+    
+}
+
+.fa-robot:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 8px 20px rgba(3, 120, 61, 0.4);
+
+}
